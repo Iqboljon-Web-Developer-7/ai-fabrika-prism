@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Masterclass — Prism</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;}
+  @keyframes pulseGlow{0%,100%{box-shadow:0 12px 30px rgba(255,45,45,.45),0 0 0 0 rgba(255,45,45,.45);}50%{box-shadow:0 16px 44px rgba(255,45,45,.7),0 0 0 12px rgba(255,45,45,0);}}
+  @keyframes pulseGlowW{0%,100%{box-shadow:0 12px 30px rgba(0,0,0,.35),0 0 0 0 rgba(255,255,255,.5);}50%{box-shadow:0 16px 44px rgba(0,0,0,.5),0 0 0 12px rgba(255,255,255,0);}}
+  @keyframes pulseGlowB{0%,100%{box-shadow:0 12px 30px rgba(31,107,255,.45),0 0 0 0 rgba(31,107,255,.45);}50%{box-shadow:0 16px 44px rgba(31,107,255,.65),0 0 0 12px rgba(31,107,255,0);}}
+  @keyframes pulseGlowV{0%,100%{box-shadow:0 12px 30px rgba(124,58,237,.5),0 0 0 0 rgba(217,70,239,.45);}50%{box-shadow:0 16px 50px rgba(217,70,239,.7),0 0 0 12px rgba(217,70,239,0);}}
+  @keyframes pulseGlowC{0%,100%{box-shadow:0 12px 30px rgba(34,211,238,.45),0 0 0 0 rgba(34,211,238,.5);}50%{box-shadow:0 16px 46px rgba(34,211,238,.65),0 0 0 12px rgba(34,211,238,0);}}
+  @keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+  @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+</style>
+<style>
+  html,body{margin:0;}
+  body{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;background:#e7e5df;font-family:'Manrope',sans-serif;}
+</style>
+</head>
+<body>
+<div style="width:390px;border-radius:16px;overflow:hidden;box-shadow:0 24px 60px rgba(124,58,237,.32);background:linear-gradient(165deg,#4F46E5 0%,#7C3AED 32%,#D946EF 66%,#FB923C 100%);color:#fff;">
+
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:16px 18px;">
+          <div style="display:flex;align-items:center;gap:7px;">
+            <div style="width:30px;height:30px;border-radius:9px;background:rgba(255,255,255,.95);display:flex;align-items:center;justify-content:center;font-family:'Anton';font-size:14px;color:#7C3AED;">AF</div>
+            <div style="font-size:12px;font-weight:800;letter-spacing:.04em;">AI&nbsp;FABRIKA</div>
+          </div>
+          <div style="background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.4);backdrop-filter:blur(6px);border-radius:100px;padding:7px 13px;font-size:11px;font-weight:800;letter-spacing:.03em;">📅 2–3 IYUL · 20:30</div>
+        </div>
+
+        <div style="padding:16px 20px 0;text-align:center;">
+          <div style="display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.4);font-size:11px;font-weight:800;letter-spacing:.08em;padding:7px 14px;border-radius:100px;">2 KUNLIK · BEPUL · ONLAYN</div>
+          <h1 style="font-family:'Anton';font-weight:400;font-size:48px;line-height:.9;margin:14px 0 0;text-transform:uppercase;text-shadow:0 4px 20px rgba(0,0,0,.18);">AI BILAN $1000 GACHA DAROMAD</h1>
+          <p style="margin:12px 8px 0;color:rgba(255,255,255,.92);font-size:14px;line-height:1.5;font-weight:600;">2 kunlik bepul master-klass — ilk daromadingizni AI bilan toping.</p>
+        </div>
+
+        <div style="margin:18px 20px 0;border-radius:20px;padding:3px;background:rgba(255,255,255,.5);box-shadow:0 16px 44px rgba(0,0,0,.25);">
+          <div style="border-radius:18px;overflow:hidden;height:270px;position:relative;background:#2a1a4a;">
+            <img src="assets/azizbek.jpg" alt="Azizbek Vafoyev" style="position:absolute;left:0;top:0;width:100%;height:100%;object-fit:cover;object-position:center 16%;"/>
+            <div style="position:absolute;left:12px;bottom:12px;background:rgba(255,255,255,.92);border-radius:12px;padding:8px 12px;color:#2a1a4a;">
+              <div style="font-size:9px;color:#7C3AED;font-weight:800;letter-spacing:.1em;">EKSPERT</div>
+              <div style="font-size:14px;font-weight:800;">Azizbek Vafoyev</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="padding:20px 20px 0;">
+          <a href="https://t.me/+emZOn-DYJtZiZmYy" target="_blank" style="display:flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;background:#fff;color:#7C3AED;font-family:'Anton';font-size:25px;padding:18px;border-radius:100px;animation:pulseGlowW 2.6s ease-in-out infinite;">BEPUL QATNASHISH →</a>
+          <div style="text-align:center;color:rgba(255,255,255,.88);font-size:13px;margin-top:11px;font-weight:600;">Telegram orqali qatnashish uchun bosing ↗</div>
+        </div>
+
+        <div style="padding:24px 20px 0;text-align:center;">
+          <div style="font-size:11px;letter-spacing:.16em;color:rgba(255,255,255,.85);font-weight:800;">BOSHLANISHIGA QOLDI</div>
+          <div style="display:flex;gap:8px;justify-content:center;margin-top:12px;">
+            <div style="flex:1;background:rgba(255,255,255,.18);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.32);border-radius:12px;padding:12px 4px;"><div style="font-family:'Anton';font-size:30px;line-height:1;"><span data-cd="dd">00</span></div><div style="font-size:9px;letter-spacing:.1em;margin-top:6px;font-weight:700;opacity:.85;">KUN</div></div>
+            <div style="flex:1;background:rgba(255,255,255,.18);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.32);border-radius:12px;padding:12px 4px;"><div style="font-family:'Anton';font-size:30px;line-height:1;"><span data-cd="hh">00</span></div><div style="font-size:9px;letter-spacing:.1em;margin-top:6px;font-weight:700;opacity:.85;">SOAT</div></div>
+            <div style="flex:1;background:rgba(255,255,255,.18);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.32);border-radius:12px;padding:12px 4px;"><div style="font-family:'Anton';font-size:30px;line-height:1;"><span data-cd="mm">00</span></div><div style="font-size:9px;letter-spacing:.1em;margin-top:6px;font-weight:700;opacity:.85;">DAQIQA</div></div>
+            <div style="flex:1;background:rgba(0,0,0,.22);border:1px solid rgba(255,255,255,.32);border-radius:12px;padding:12px 4px;"><div style="font-family:'Anton';font-size:30px;line-height:1;"><span data-cd="ss">00</span></div><div style="font-size:9px;letter-spacing:.1em;margin-top:6px;font-weight:700;opacity:.85;">SONIYA</div></div>
+          </div>
+        </div>
+
+        <div style="padding:32px 20px 0;">
+          <h2 style="font-family:'Anton';font-size:27px;text-transform:uppercase;margin:0;">NIMA O'RGANASIZ?</h2>
+          <div style="display:flex;flex-direction:column;gap:12px;margin-top:16px;">
+            
+              <div style="display:flex;gap:14px;align-items:center;background:rgba(255,255,255,.15);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.28);border-radius:14px;padding:14px;">
+                <div style="font-family:'Anton';font-size:30px;color:#fff;line-height:1;min-width:40px;text-align:center;">01</div>
+                <div style="font-size:14px;font-weight:600;line-height:1.35;">AI yordamida 0 dan $1000 daromad qilish</div>
+              </div>
+            
+              <div style="display:flex;gap:14px;align-items:center;background:rgba(255,255,255,.15);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.28);border-radius:14px;padding:14px;">
+                <div style="font-family:'Anton';font-size:30px;color:#fff;line-height:1;min-width:40px;text-align:center;">02</div>
+                <div style="font-size:14px;font-weight:600;line-height:1.35;">Instagram sahifangizni millionlab ko'rishlargacha olib chiqish</div>
+              </div>
+            
+              <div style="display:flex;gap:14px;align-items:center;background:rgba(255,255,255,.15);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.28);border-radius:14px;padding:14px;">
+                <div style="font-family:'Anton';font-size:30px;color:#fff;line-height:1;min-width:40px;text-align:center;">03</div>
+                <div style="font-size:14px;font-weight:600;line-height:1.35;">AI orqali ilk daromadingizni topish</div>
+              </div>
+            
+              <div style="display:flex;gap:14px;align-items:center;background:rgba(255,255,255,.15);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.28);border-radius:14px;padding:14px;">
+                <div style="font-family:'Anton';font-size:30px;color:#fff;line-height:1;min-width:40px;text-align:center;">04</div>
+                <div style="font-size:14px;font-weight:600;line-height:1.35;">Kasb va biznesingizga AI'ni integratsiya qilish</div>
+              </div>
+            
+          </div>
+        </div>
+
+        <div style="padding:28px 20px 0;">
+          <div style="border-radius:18px;background:rgba(255,255,255,.16);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.32);padding:24px;text-align:center;">
+            <div style="font-size:36px;line-height:1;">🎁</div>
+            <div style="font-family:'Anton';font-size:23px;text-transform:uppercase;margin-top:8px;">MAXSUS SOVG'A</div>
+            <p style="color:rgba(255,255,255,.92);font-size:13px;line-height:1.55;margin:8px 4px 0;font-weight:500;">Har bir ishtirokchi uchun maxsus sovg'a — faqat jonli efirda ochiladi.</p>
+          </div>
+        </div>
+
+        <div style="padding:32px 20px 36px;text-align:center;">
+          <h2 style="font-family:'Anton';font-size:30px;text-transform:uppercase;margin:0;line-height:.98;">JOYINGIZNI BAND QILING</h2>
+          <p style="color:rgba(255,255,255,.88);font-size:13px;margin:8px 0 16px;font-weight:600;">Bepul · onlayn · 2–3 IYUL, 20:30</p>
+          <a href="https://t.me/+emZOn-DYJtZiZmYy" target="_blank" style="display:flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;background:#fff;color:#7C3AED;font-family:'Anton';font-size:22px;padding:18px;border-radius:100px;animation:pulseGlowW 2.6s ease-in-out infinite;">TELEGRAMGA QO'SHILISH →</a>
+          <div style="margin-top:14px;color:rgba(255,255,255,.7);font-size:11px;">AI Fabrika · Azizbek Vafoyev</div>
+        </div>
+
+      </div>
+<script>
+(function(){
+  var target = new Date('2026-07-02T20:30:00+05:00').getTime();
+  var p = function(n){ return String(Math.max(0,n)).padStart(2,'0'); };
+  function tick(){
+    var diff = target - Date.now(), s = Math.max(0, Math.floor(diff/1000));
+    var v = { dd:p(Math.floor(s/86400)), hh:p(Math.floor(s%86400/3600)),
+              mm:p(Math.floor(s%3600/60)), ss:p(s%60) };
+    document.querySelectorAll('[data-cd]').forEach(function(el){ el.textContent = v[el.dataset.cd]; });
+  }
+  tick(); setInterval(tick, 1000);
+})();
+</script>
+</body>
+</html>
